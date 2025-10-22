@@ -44,7 +44,7 @@ nav a:hover{
     text-align: center;
 }
 
-.banner h2{
+.banner h1{
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
@@ -89,3 +89,35 @@ nav a:hover{
     transform: scale(1.05);
 }
 
+/* informacion de las tarjetas */
+.info{
+    padding: 3rem 1rem;
+    background-color: white;
+    text-align: center;
+}
+
+.tarjetas-info{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.tarjetas{
+    width: 200px;
+}
+
+/* Footer / final de pagina */
+footer{
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--black);
+    color: white;
+    
+}
+
+footer a{
+    color: white;
+    font-size: 0.8rem;
+    /* text-decoration: none; */
+}
