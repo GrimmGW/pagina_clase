@@ -1,0 +1,91 @@
+
+:root{
+    --blue-primary: #0077ff;
+    --black: #111;
+}
+
+body{
+    font-family: "Unbounded", sans-serif;
+    margin: 0;
+    background-color: #fefefe;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--black);
+    margin: 0 1rem;
+    font-weight: 500;
+}
+
+nav a:hover{
+    color: var(--blue-primary);
+}
+
+/* banner */
+.banner{
+    padding: 5rem 1rem;
+    background: linear-gradient(90deg, #fff, #b7d9ff);
+    text-align: center;
+}
+
+.banner h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.banner button{
+    font-family: "Unbounded", sans-serif;
+    background-color: var(--blue-primary);
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.banner button:hover{
+    background-color: var(--black);
+}
+
+/* galeria */
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.gallery img{
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover{
+    transform: scale(1.05);
+}
+
